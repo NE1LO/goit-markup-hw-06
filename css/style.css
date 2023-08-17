@@ -10,7 +10,6 @@ body{
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -24,22 +23,22 @@ body{
   line-height: 1.5;
   color: #2e2f42;
 }
-
+/* 
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
-}
+} */
 
 .header-address-link{
+  font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
-.addres-link:hover,
+/* .addres-link:hover,
 .addres-link:focus {
   color: #404bbf;
-}
+} */
 
 /* ------------------------------main------------------------------- */
 
@@ -80,10 +79,11 @@ body{
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
   font-size: 36px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  line-height: 1.11;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
   text-align: center;
 }
 
