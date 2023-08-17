@@ -96,6 +96,7 @@ body{
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
+  line-height: 1.11;
 }
 
 .three-level{
