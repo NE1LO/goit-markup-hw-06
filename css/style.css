@@ -17,6 +17,7 @@ body{
 
 .logo-studio {
   color: #2e2f42;
+  letter-spacing: 0.03
 }
 
 .header-link{
@@ -25,11 +26,12 @@ body{
   color: #2e2f42;
   letter-spacing: 0.02em
 }
-/* 
+
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
-} */
+}
+
 .header-contacts{
   font-style: normal
 }
@@ -40,10 +42,10 @@ body{
   color: #434455;
 }
 
-/* .addres-link:hover,
+.addres-link:hover,
 .addres-link:focus {
   color: #404bbf;
-} */
+}
 
 /* ------------------------------main------------------------------- */
 
