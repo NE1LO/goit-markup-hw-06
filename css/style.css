@@ -12,6 +12,7 @@ body{
   line-height: 1.17;
   text-transform: uppercase;
   color: #4d5ae5;
+  letter-spacing: 0.03em
 }
 
 .logo-studio {
@@ -22,12 +23,16 @@ body{
   font-weight: 500;
   line-height: 1.5;
   color: #2e2f42;
+  letter-spacing: 0.02em
 }
 /* 
 .header-link:hover,
 .header-link:focus {
   color: #404bbf;
 } */
+.header-contacts{
+  font-style: normal
+}
 
 .header-address-link{
   font-style: normal;
