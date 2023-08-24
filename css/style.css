@@ -180,18 +180,97 @@ a{
   background-color: #404bbf;
 }
 
-.advantages-container{
+/*-------------------section----advantages------------------- */
+.advantages{
+  padding: 120px 0;
+}
+
+.list-advantages{
+    width: calc((100% - 72px) / 4);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.advantages-block{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  
+}
+
+
+
+
+/* -----------------------section our team--------------------------------- */
+.our-team {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.team-title{
+  margin-bottom: 72px;
+}
+
+.our-team-list-item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 72px;
+}
+
+.block-our-team {
+  background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  padding-bottom: 32px;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  padding: 32px 0;
+}
+
+.our-team-text{
+  padding: 32px 0px;
+}
+
+/* close section */
+
+
+/* --------------------------our-portfolio----------------------- */
+
+.our-portfolio{
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.advantages-block{
-  width: 264px;
-  height: 104px;
-  display: inline-block;
-  
+.title-our-portfoilo{
+  margin: 0 0 72px 0;
 }
-/* close section */
+
+.list-item-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px
+}
+
+.list-item-portfolio-text{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.title-our-portfolio{
+  margin-bottom: 8px
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* work-with-text */
 
@@ -208,6 +287,19 @@ a{
   text-transform: capitalize;
   text-align: center;
   line-height: 1.11;
+  padding-top: 120px;
+}
+
+.advantages-title{
+    position: absolute;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .three-level {
@@ -229,13 +321,9 @@ a{
 
 /* our team */
 
-.our-team {
-  background-color: #f4f4fd;
-}
 
-.block-our-team {
-  background-color: #ffffff;
-}
+
+
 
 
 
@@ -243,15 +331,20 @@ a{
 /*--------------------------------------- footer ---------------------------------------*/
 .footer-block {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 /* logo-footer-STUDIO */
 .logo-footer {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-just-text {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+
+  padding: 0 864px 100px 0;
 }
+
