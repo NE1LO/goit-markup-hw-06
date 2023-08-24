@@ -271,7 +271,7 @@ a {
   padding-top: 120px;
 }
 
-.advantages-title {
+.visibility-hidden{
   position: absolute;
   width: 1px;
   margin: -1px;
@@ -281,7 +281,6 @@ a {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  visibility: hidden;
 }
 
 .three-level {
