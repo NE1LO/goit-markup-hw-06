@@ -33,23 +33,37 @@ a{
 
 /*--------------------------------------header --------------------------------------*/
 
-.header-container {
-  max-width: 1440px;
+
+/* Block container  */
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/*  */
+.header-container{
   max-height: 72px;
+  display: flex;
   margin-left: 148px;
   margin-right: 148px;
+  margin: 0px auto;
+  
 }
 
 .header-navigaton{
     display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .header-three-link{
     display: flex;
     flex-direction: row;
     gap: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    align-items: center;
+    margin-right: 166px;
 }
 
 .logo {
@@ -60,7 +74,8 @@ a{
   text-transform: uppercase;
   color: #4d5ae5;
   letter-spacing: 0.03em;
-  padding: 25px 76px 25px 10px;
+  padding: 25px 0px 25px 0px;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -80,9 +95,23 @@ a{
   color: #404bbf;
 }
 
+
+/* ----------------------------------------------- */
 .header-contacts {
   font-style: normal;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-left: 166px;
+  padding: 24px 0;
 }
+
+.header-contacts-block{
+  display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
 
 .header-address-link {
   font-style: normal;
@@ -96,10 +125,25 @@ a{
   color: #404bbf;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* ------------------------------main------------------------------- */
+.hero-container{
+  width: 1440px;
+  margin: 0px auto;
+}
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0px;
 }
 
 .title-one-level {
@@ -109,6 +153,8 @@ a{
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
+  margin: 0px auto;
 }
 
 .main-button {
@@ -120,11 +166,30 @@ a{
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.04em;
+  padding: 16px 32px;
+  border-radius: 4px;
+  min-width: 169px;
+  display: block;
+  height: 56px;
+  border: none;
+  margin: 48px auto;
 }
 
 .main-button:hover,
 .main-button:focus {
   background-color: #404bbf;
+}
+
+.advantages-container{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.advantages-block{
+  width: 264px;
+  height: 104px;
+  display: inline-block;
+  
 }
 /* close section */
 
@@ -172,7 +237,10 @@ a{
   background-color: #ffffff;
 }
 
-/* footer */
+
+
+
+/*--------------------------------------- footer ---------------------------------------*/
 .footer-block {
   background-color: #2e2f42;
 }
