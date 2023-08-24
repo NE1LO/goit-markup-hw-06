@@ -81,6 +81,11 @@ a {
   margin-right: 76px;
 }
 
+.logo-config{
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .logo-studio {
   color: #2e2f42;
   letter-spacing: 0.03;
