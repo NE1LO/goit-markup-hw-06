@@ -314,7 +314,10 @@ a {
   padding: 0 864px 100px 0;
 }
 
-/* position: absolute;
+  
+
+.visually-hidden{
+  position: absolute;
   width: 1px;
   margin: -1px;
   border: 0;
@@ -322,15 +325,5 @@ a {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden; */
-
-.visually-hidden{
-  position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
+  overflow: hidden;
 }
