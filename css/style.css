@@ -56,14 +56,13 @@ a {
 .header-navigaton {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .header-three-link {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   padding-left: 0px;
   align-items: center;
   margin-right: 166px;
