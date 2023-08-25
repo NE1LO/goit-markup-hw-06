@@ -56,7 +56,6 @@ a {
 .header-navigaton {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-three-link {
@@ -117,6 +116,7 @@ a {
   display: flex;
   flex-direction: row;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .header-address-link {
