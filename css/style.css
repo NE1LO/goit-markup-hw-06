@@ -311,6 +311,10 @@ a {
   border-radius: 50%;
 }
 
+.link-our-team-icons:hover,:focus{
+  background-color: #404bbf;
+}
+
 .link-icons {
   fill: #f4f4fd;
   width: 16px;
