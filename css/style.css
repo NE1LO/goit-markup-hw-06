@@ -220,11 +220,8 @@ a {
 
 .list-advantages {
   width: calc((100% - 72px) / 4);
-  padding-top: 120px;
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  
 }
 
 .advantages-block {
@@ -281,11 +278,11 @@ a {
 
 .our-team-text {
   padding: 32px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
+ 
+}
+
+.our-team-margin-text{
+  margin-bottom: 8px;
 }
 
 .ul-our-team-icons {
@@ -325,8 +322,6 @@ a {
 
 .link-icons {
   fill: #f4f4fd;
-  width: 16px;
-  height: 16px;
 }
 
 /* --------------------------our-portfolio----------------------- */
