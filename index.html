@@ -623,9 +623,8 @@
       </div>
     </footer>
 
-
     <!-- BACKDROP -->
-    <div class="backdrop">
+    <div class="backdrop visually-hidden">
       <div class="modal">
         <button
           class="icon-btn-close"
@@ -637,7 +636,9 @@
             <use href="./images/icon.svg#icon-close"></use>
           </svg>
         </button>
-        <p class='review-form-description'>Leave your contacts and we will call you back</p>
+        <p class="review-form-description">
+          Leave your contacts and we will call you back
+        </p>
 
         <form action="">
           <div class="review-form-filed-label">
@@ -646,19 +647,21 @@
               class="form-label"
               >Name</label
             >
-            <input
-              type="text"
-              class="form-input"
-              id="user-name"
-              name="user-name"
-              required />
-            <svg
-            class='icons-input'
-              width="18px"
-              height="18"
-              aria-label="user icon">
-              <use href="../images/icon.svg#icon-name"></use>
-            </svg>
+            <div class="review-form-wrapp">
+              <input
+                type="text"
+                class="form-input"
+                id="user-name"
+                name="user-name"
+                required />
+              <svg
+                class="icons-input"
+                width="18px"
+                height="18"
+                aria-label="user icon">
+                <use href="../images/icon.svg#icon-name"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="review-form-filed-label">
@@ -667,19 +670,21 @@
               class="form-label"
               >Phone</label
             >
-            <input
-              type="tel"
-              class="form-input"
-              id="user-tel"
-              name="user-phone"
-              required />
-            <svg
-            class='icons-input'
-              width="18px"
-              height="18"
-              aria-label="phone icon">
-              <use href="../images/icon.svg#icon-tel"></use>
-            </svg>
+            <div class="review-form-wrapp">
+              <input
+                type="tel"
+                class="form-input"
+                id="user-tel"
+                name="user-phone"
+                required />
+              <svg
+                class="icons-input"
+                width="18px"
+                height="18"
+                aria-label="phone icon">
+                <use href="../images/icon.svg#icon-tel"></use>
+              </svg>
+            </div>
           </div>
 
           <div class="review-form-filed-label">
@@ -688,19 +693,21 @@
               class="form-label"
               >Email</label
             >
-            <input
-              type="email"
-              class="form-input"
-              id="user-email"
-              name="user-email"
-              required />
-            <svg
-            class='icons-input'
-              width="18px"
-              height="18"
-              aria-label="email icon">
-              <use href="../images/icon.svg#icon-mail"></use>
-            </svg>
+            <div class="review-form-wrapp">
+              <input
+                type="email"
+                class="form-input"
+                id="user-email"
+                name="user-email"
+                required />
+              <svg
+                class="icons-input"
+                width="18px"
+                height="18"
+                aria-label="email icon">
+                <use href="../images/icon.svg#icon-mail"></use>
+              </svg>
+            </div>
           </div>
           <div class="review-form-filed-label">
             <label
@@ -720,15 +727,24 @@
               id="user-privacy"
               type="checkbox"
               required
-              value='true' />
+              value="true" />
             <label
               class="review-form-checkbox-label"
               for="user-privacy"
-              >I accept the terms and conditions of the <a class='checkbox-privacy-policy' href="">Privacy Policy</a></label
+              >I accept the terms and conditions of the
+              <a
+                class="checkbox-privacy-policy"
+                href=""
+                >Privacy Policy</a
+              ></label
             >
           </div>
           <div class="">
-            <button class='btn-send-form' type='submit'>Send</button>
+            <button
+              class="btn-send-form"
+              type="submit">
+              Send
+            </button>
           </div>
         </form>
       </div>
