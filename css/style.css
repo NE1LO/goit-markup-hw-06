@@ -541,6 +541,10 @@ a {
   padding: 72px 24px 24px 24px;
 }
 
+.review-form-filed-label{
+  margin-bottom: 8px
+}
+
 /* button-close */
 .icon-btn-close {
   display: flex;
