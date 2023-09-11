@@ -518,6 +518,7 @@ a {
   background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
   /* opacity: 0;
   visibility: hidden;
   pointer-events: none; */
