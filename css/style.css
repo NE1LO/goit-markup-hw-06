@@ -541,6 +541,8 @@ a {
   padding: 72px 24px 24px 24px;
 }
 
+
+
 .review-form-filed-label{
   margin-bottom: 8px
 }
@@ -639,6 +641,7 @@ a {
 
 .review-form-wrapp {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .modal-window-comment {
