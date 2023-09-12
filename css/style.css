@@ -602,9 +602,6 @@ a {
   padding: 72px 24px 24px 24px;
 }
 
-.review-form-text-block {
-  margin-bottom: 16px;
-}
 
 /* button-close */
 .icon-btn-close {
@@ -695,7 +692,7 @@ a {
 }
 
 .review-form-filed-label {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .review-form-wrapp {
