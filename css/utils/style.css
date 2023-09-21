@@ -4,49 +4,17 @@ body {
   background-color: #ffffff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
-ul,
-ol {
-  padding-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  list-style-type: none;
-}
-
-img {
-  display: block;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* Block container  */
-.container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 /*--------------------------------------header --------------------------------------*/
-.header-border-bottom {
+/* .header-border-bottom {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+} */
 
 /*  */
-.header-container {
+/* .header-container {
   max-height: 72px;
   display: flex;
   margin-left: 148px;
@@ -93,11 +61,11 @@ a {
 .logo-studio {
   color: #2e2f42;
   letter-spacing: 0.03;
-}
+} */
 
 /* header-link */
 
-.header-link {
+/* .header-link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -125,10 +93,10 @@ a {
   border-radius: 2px;
   background: #404bbf;
   bottom: -1px;
-}
+} */
 
 /* ----------------------------------------------- */
-.header-contacts {
+/* .header-contacts {
   font-style: normal;
   display: flex;
   flex-direction: row;
@@ -153,7 +121,7 @@ a {
 .header-address-link:hover,
 .header-address-link:focus {
   color: #404bbf;
-}
+} */
 
 /* ----------------------------=========--main--============----------------------------- */
 
@@ -493,18 +461,7 @@ a {
   max-width: 264px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 /* ------------------ */
 .footer-form-block{
   margin-left: 80px;
@@ -524,9 +481,8 @@ a {
   gap: 24px;
 }
 
-.form-footer-label {
-  
-}
+/* .form-footer-label {
+} */
 
 .input-footer {
   width: 264px;
@@ -579,7 +535,9 @@ a {
   background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.is-open{
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
