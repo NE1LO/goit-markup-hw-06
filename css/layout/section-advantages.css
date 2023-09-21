@@ -1,0 +1,46 @@
+@media screen and (max-width: 767px){
+
+  .advantages {
+    padding-top: 96px;
+  }
+
+  .advantages-block{
+    display: block;
+    gap: 72px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  
+  .advantages-icon-item{
+    display: none;
+  }
+
+  .abvantages-icon {
+    margin: 24px 100px;
+  }
+  
+  .advantages-title-margin {
+    margin-bottom: 8px;
+  }
+
+  .advantages-title-mobile{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+    margin-bottom: 8px;
+  }
+  
+
+  .advantages-text-mobile{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+    padding-bottom: 72px;
+  }
+}
+
