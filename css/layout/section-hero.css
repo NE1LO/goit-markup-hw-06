@@ -1,0 +1,174 @@
+/* .hero-container {
+  max-width: 1440px;
+  margin: 0px auto;
+} */
+
+@media screen and (max-width: 767px) {
+  .hero-container {
+    max-width: 320px;
+    margin: 0px auto;
+  }
+
+  .title-one-level-mobile {
+    color: var(--WHITE, #fff);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111%; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .hero {
+    background-color: var(#4d5ae5);
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background: var(#4d5ae5);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images-mobil/hero-office-mob-min.jpg);
+    background-size: cover 320px 432px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .main-button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    min-width: 169px;
+    display: block;
+    height: 56px;
+    border: none;
+    margin: 48px auto 0px auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .main-button:hover,
+  .main-button:focus {
+    background-color: #404bbf;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1167px) {
+  .hero {
+    background-size: 768px 436px;
+    background-position: center center;
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images-tablet/hero-office-tablet-min.jpg);
+    background-repeat: no-repeat;
+    padding: 188px 0px;
+    background-size: cover;
+  }
+
+  .title-one-level {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0px auto;
+  }
+
+  .main-button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    min-width: 169px;
+    display: block;
+    height: 56px;
+    border: none;
+    margin: 48px auto 0px auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .main-button:hover,
+  .main-button:focus {
+    background-color: #404bbf;
+  }
+}
+
+
+
+@media screen and (min-width: 1167px) {
+
+  hero-container {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+  
+  .hero {
+    max-width: 1440px;
+    max-height: 600px;
+    margin: auto auto;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../../images/people-office.jpg);
+    background-repeat: no-repeat;
+    padding: 188px 0px;
+    background-size: cover;
+   }
+  
+  .title-one-level {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0px auto;
+  } 
+  
+   .main-button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border-radius: 4px;
+    min-width: 169px;
+    display: block;
+    height: 56px;
+    border: none;
+    margin: 48px auto 0px auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .main-button:hover,
+  .main-button:focus {
+    background-color: #404bbf;
+  }
+
+}
