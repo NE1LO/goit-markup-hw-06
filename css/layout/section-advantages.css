@@ -1,7 +1,8 @@
 @media screen and (max-width: 767px){
 
   .advantages {
-    padding-top: 96px;
+    margin-top: 96px;
+    margin-bottom: 192px;
   }
 
   .advantages-block{
@@ -11,10 +12,15 @@
     margin-bottom: auto;
   }
 
+  .list-advantages:not(:last-child){
+    margin-bottom: 72px;
+  }
+
   
   .advantages-icon-item{
     display: none;
   }
+  
 
   .abvantages-icon {
     margin: 24px 100px;
@@ -39,9 +45,10 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-secondary);
-    padding-bottom: 72px;
+    color: var(--color-secondary); 
   }
+  
+  
 }
 
 
@@ -117,6 +124,16 @@
   flex-wrap: wrap;
   gap: 24px;
 }
+
+.three-level {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
 
 .advantages-icon-item {
   display: flex;

@@ -19,6 +19,8 @@
     line-height: 111%; /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    width: 220px;
+    margin: 0 auto;
   }
 
   .hero {
@@ -61,7 +63,7 @@
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1167px) {
+@media screen and (min-width: 767px) and (max-width: 1158px) {
   .hero {
     background-size: 768px 436px;
     background-position: center center;
@@ -72,7 +74,7 @@
       ),
       url(../../images-tablet/hero-office-tablet-min.jpg);
     background-repeat: no-repeat;
-    padding: 188px 0px;
+    padding: 112px 0px;
     background-size: cover;
   }
 
@@ -113,7 +115,7 @@
 
 
 
-@media screen and (min-width: 1167px) {
+@media screen and (min-width: 1158px) {
 
   hero-container {
     max-width: 1440px;
@@ -137,17 +139,6 @@
     background-size: cover;
    }
   
-  .title-one-level {
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #ffffff;
-    max-width: 496px;
-    margin: 0px auto;
-  } 
-  
    .main-button {
     background-color: #4d5ae5;
     font-weight: 500;
@@ -169,6 +160,17 @@
   .main-button:hover,
   .main-button:focus {
     background-color: #404bbf;
+  }
+
+  .title-one-level {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0px auto;
   }
 
 }
