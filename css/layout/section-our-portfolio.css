@@ -1,0 +1,210 @@
+@media screen and (max-width: 767px) {
+  .our-portfolio {
+    padding-bottom: 120px;
+    
+  }
+  
+  .list-item-portfolio {
+    row-gap: 48px;
+  }
+  
+  /*-----title=>h3 -----*/
+  .title-our-portfoilo {
+    margin: 0 0 72px 0;
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111%; /* 111.111% */
+    letter-spacing: 0,02em;
+    text-transform: capitalize;
+  }
+  
+  .list-item-portfolio-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+  /*------block-our-portfolio=====>img-----*/
+  .block-our-portfolio-photo {
+    position: relative;
+    overflow: hidden;
+  
+    max-width: 288px;
+    max-height: 280px;
+  }
+  
+  .our-portfolio-title-down-photo {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
+  }
+  
+  /* .our-portfolio-title-down-photo:hover{
+    transform: translateY(100%);
+  } */
+  
+  /* ========================================= */
+  .list-item-our-portfolio {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .list-item-our-portfolio:hover .our-portfolio-title-down-photo {
+    transform: translateY(0%);
+  }
+  
+  .list-item-our-portfolio:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width: 767px) {
+
+
+  .our-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .list-item-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+  } 
+  
+  .title-our-portfoilo {
+    margin: 0 0 72px 0;
+  }
+  
+  .list-item-portfolio-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+  /*------block-our-portfolio=====>img-----*/
+  .block-our-portfolio-photo {
+    position: relative;
+    overflow: hidden;
+  
+    max-width: 356px;
+    max-height: 300px;
+  }
+  
+  .our-portfolio-title-down-photo {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(100%);
+  }
+  
+  .our-portfolio-title-down-photo:hover{
+    transform: translateY(100%);
+  }
+  
+  /* ========================================= */
+  .list-item-our-portfolio {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .list-item-our-portfolio:hover .our-portfolio-title-down-photo {
+    transform: translateY(0%);
+  }
+  
+  .list-item-our-portfolio:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+  
+}
+
+
+@media screen and (min-width: 1158px) {
+  .our-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.list-item-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+} 
+
+.title-our-portfoilo {
+  margin: 0 0 72px 0;
+}
+
+.list-item-portfolio-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+/*------block-our-portfolio=====>img-----*/
+.block-our-portfolio-photo {
+  position: relative;
+  overflow: hidden;
+
+  max-width: 360px;
+  max-height: 360px;
+}
+
+.our-portfolio-title-down-photo {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
+}
+
+.our-portfolio-title-down-photo:hover{
+  transform: translateY(100%);
+}
+
+/* ========================================= */
+.list-item-our-portfolio {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-item-our-portfolio:hover .our-portfolio-title-down-photo {
+  transform: translateY(0%);
+}
+
+.list-item-our-portfolio:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+}
