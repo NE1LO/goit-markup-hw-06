@@ -102,3 +102,40 @@
 
 }
 
+@media screen and (min-width: 1158px){
+ .advantages {
+  padding: 120px 0;
+}
+
+.list-advantages {
+  width: calc((100% - 72px) / 4);
+  align-items: flex-start;
+}
+
+.advantages-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.advantages-icon-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+}
+
+.abvantages-icon {
+  margin: 24px 100px;
+}
+
+.advantages-title-margin {
+  margin-bottom: 8px;
+}
+}
+
