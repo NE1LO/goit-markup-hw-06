@@ -1,11 +1,11 @@
 /* BASE */
-@import '/css/base/container.css';
-@import '/css/base/common.css';
-@import '/css/base/section.css';
+@import '../../css/base/container.css';
+@import '../../css/base/common.css';
+@import '../../css/base/section.css';
 
-@import '/css/layout/header.css';
-@import '/css/layout/section-hero.css';
-@import '/css/layout/section-advantages.css';
-@import '/css/layout/section-our-team.css';
-@import '/css/layout/section-our-portfolio.css';
-@import '/css/layout/footer.css';
+@import '../../css/layout/header.css';
+@import '../../css/layout/section-hero.css';
+@import '../../css/layout/section-advantages.css';
+@import '../../css/layout/section-our-team.css';
+@import '../../css/layout/section-our-portfolio.css';
+@import '../../css/layout/footer.css';
