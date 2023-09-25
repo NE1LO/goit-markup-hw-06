@@ -1,8 +1,8 @@
 @media screen and (max-width: 767px){
 
   .advantages {
-    margin-top: 96px;
-    margin-bottom: 192px;
+    padding-top: 96px;
+    padding-bottom: 192px;
   }
 
   .advantages-block{
@@ -109,7 +109,7 @@
 
 }
 
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1158px) {
  .advantages {
   padding: 120px 0;
 }
@@ -133,7 +133,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
+  margin-bottom: 8px;}
 
 .advantages-icon-item {
   display: flex;
@@ -154,5 +154,6 @@
 .advantages-title-margin {
   margin-bottom: 8px;
 }
+
 }
 
