@@ -597,7 +597,6 @@ body {
   
   /* style for modal */
   .review-form-description {
-    width: 360px;
     color: var(--NAVY-BLUE, #2e2f42);
     text-align: center;
     font-family: Roboto;

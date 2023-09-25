@@ -32,6 +32,7 @@
     background-size: cover 320px 432px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
   }
 
   .main-button {
@@ -68,6 +69,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px)
       rgba(46, 47, 66, 0.7)
     ),
     url(../../images-mobil/hero-mobile@2x-min.png);
+    background-size: cover;
   }
 }
 
