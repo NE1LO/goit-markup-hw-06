@@ -2,7 +2,7 @@
 @import './base/container.css';
 @import './base/common.css';
 @import './base/section.css';
-
+/* section */
 @import './layout/header.css';
 @import './layout/section-hero.css';
 @import './layout/section-advantages.css';
