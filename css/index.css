@@ -2,6 +2,8 @@
 @import './base/container.css';
 @import './base/common.css';
 @import './base/section.css';
+/* visually-hiden */
+@import './base/visually.hidden.css';
 /* section */
 @import './layout/header.css';
 @import './layout/section-hero.css';
