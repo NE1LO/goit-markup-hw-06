@@ -12,13 +12,13 @@ const openWindow = document.getElementById('btn-open-modal');
 const closeWindow = document.getElementById('btn-close-modal');
 const modalWindow = document.getElementById('modal-window');
 
-function openModal() {
+const openModal = () => {
   modalWindow.classList.add('is-open-modal');
-}
+};
 
-function closeModal() {
+const closeModal = () => {
   modalWindow.classList.remove('is-open-modal');
-}
+};
 
 openWindow.addEventListener('click', openModal);
 closeWindow.addEventListener('click', closeModal);
